@@ -76,10 +76,14 @@ public class ManyInspirationalQuotes extends Application {
     }
 
     private void handleButton(ActionEvent event) {
+        // generate random index, use index to find random quote from array
+        // display new quote with random text color
         int newQuoteIndex = generateRandomIndex();
         helloText.setText(myQuotes[newQuoteIndex]);
         helloText.setFont(Font.font("Helvetica", 28));
         helloText.setFill(generateRandomColor());
+
+        //change the background color each time the button is clicked
         BackgroundFill background_fill = new BackgroundFill(generateRandomColor(),
                 CornerRadii.EMPTY, Insets.EMPTY);
         // create Background
