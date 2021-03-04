@@ -87,8 +87,8 @@ public class ManyInspirationalQuotes extends Application {
 
         // set background
         mainVBox.setBackground(background);
-
     }
+
     public static void main(String[] args) {
         launch(args);
     }
