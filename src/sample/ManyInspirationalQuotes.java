@@ -35,7 +35,6 @@ public class ManyInspirationalQuotes extends Application {
         mainVBox = new VBox();
         mainVBox.setStyle("-fx-background-color: ;");
         mainVBox.setStyle("-fx-border-color: #a14a76; -fx-border-width:12px;");
-
         mainVBox.setAlignment(Pos.CENTER);
         mainVBox.setSpacing(15);
 
